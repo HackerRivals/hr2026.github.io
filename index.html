@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#06131b">
+  <meta name="description" content="HackerRivals is a three hour audience driven hackathon with real cash prizes, live voting and global community events.">
+  <title>HackerRivals | Real People. Real Ideas. Real Impact.</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="HackerRivals home">
+      <img src="assets/images/hackerrivals-logo.png" alt="HackerRivals.com">
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav">Menu</button>
+    <nav id="main-nav" class="main-nav" aria-label="Primary navigation">
+      <a href="#world">Events</a>
+      <a href="#host">Host</a>
+      <a href="#about">About</a>
+      <a href="#community">Community</a>
+      <a href="#sponsors">Past sponsors</a>
+    </nav>
+    <a class="btn btn-primary header-cta" href="#get-involved">Get involved</a>
+  </header>
+
+  <main>
+    <section class="hero" id="about">
+      <div class="hero-copy">
+        <p class="eyebrow">A global hackathon movement</p>
+        <h1>Real people<br>Real ideas<br><span>Real impact</span></h1>
+        <p class="hero-intro">HackerRivals brings together builders, dreamers and doers to tackle creative challenges. A hackathon designed for the audience to have fun, participate and make a difference.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" data-link="compete" href="#world">Compete at an event</a>
+          <a class="btn btn-outline" data-link="host" href="#host">Host an event</a>
+        </div>
+      </div>
+      <div class="hero-visual" role="img" aria-label="HackerRivals event stage with a large audience, trophy and cash prizes"></div>
+    </section>
+
+    <section class="facts section-edge" aria-label="HackerRivals facts">
+      <article class="fact"><span class="fact-icon">♜</span><h2>Real cash prizes</h2><p>Teams compete for real money. No gift cards.</p></article>
+      <article class="fact"><span class="fact-icon pink">♡</span><h2>Supports charity</h2><p>All money raised besides prize money and event hosting costs goes to charity.</p></article>
+      <article class="fact"><span class="fact-icon">◎</span><h2>Built for the audience</h2><p>The audience watches, participates, votes and helps shape the competition.</p></article>
+      <article class="fact"><span class="fact-icon pink">◷</span><h2>Three hour event</h2><p>Build, pitch and present on stage. Big ideas in a short time.</p></article>
+    </section>
+
+    <section class="section leaderboard-section" id="leaderboard">
+      <div class="section-heading split-heading">
+        <div><p class="eyebrow">Current standings</p><h2>Global <span>leaderboard</span></h2></div>
+        <a class="text-link" id="complete-leaderboard-link" href="#" target="_blank" rel="noopener">View complete leaderboard →</a>
+      </div>
+      <div class="table-wrap">
+        <table class="leaderboard-table">
+          <thead><tr><th>#</th><th>Team</th><th>Team members</th><th>Overall points</th><th>Cash prize money won</th></tr></thead>
+          <tbody id="leaderboard-rows"></tbody>
+        </table>
+      </div>
+      <p class="data-note" id="leaderboard-note">Loading leaderboard information…</p>
+    </section>
+
+    <section class="section world-section" id="world">
+      <div class="section-heading centered">
+        <p class="eyebrow">Compete, host or celebrate</p>
+        <h2>Around the <span>world</span></h2>
+        <p>When a competition is active, enter your team. When there is a celebration event, come meet the community. Anywhere else, help bring HackerRivals to your city.</p>
+      </div>
+      <div class="status-key" aria-label="City card types">
+        <span class="key compete">Compete</span><span>Active competition</span>
+        <span class="key celebrate">Celebrate</span><span>Community awareness event</span>
+        <span class="key host">Host</span><span>Bring HackerRivals to the city</span>
+      </div>
+      <div class="city-grid" id="city-grid"></div>
+    </section>
+
+    <section class="section involvement" id="get-involved">
+      <article class="involve-card cyan">
+        <div class="involve-icon">◇</div><h3>Become a sponsor</h3><p>Put your brand beside the builders, the audience and the next generation of technical talent.</p><a data-link="sponsor" href="#">Explore sponsorship →</a>
+      </article>
+      <article class="involve-card magenta">
+        <div class="involve-icon">◎</div><h3>Register your team</h3><p>Gather your crew and put your ideas, presentation skills and ability to adapt to the test.</p><a data-link="register_team" href="#">Apply to compete →</a>
+      </article>
+      <article class="involve-card gold">
+        <div class="involve-icon">♙</div><h3>Apply to volunteer</h3><p>Be part of the action and help make the live event happen.</p><a data-link="volunteer" href="#">Volunteer →</a>
+      </article>
+      <article class="involve-card violet">
+        <div class="involve-icon">▣</div><h3>Find top talent</h3><p>Recruiters can meet standout builders, see how they think under pressure and connect with the community.</p><a data-link="recruiter" href="#">Recruiter involvement →</a>
+      </article>
+    </section>
+
+    <section class="section event-flow" id="host">
+      <div class="section-heading centered">
+        <p class="eyebrow">Live, physical and audience driven</p>
+        <h2>What an event <span>feels like</span></h2>
+      </div>
+      <div class="timeline">
+        <article class="timeline-step"><div class="step-number">1</div><div class="step-icon">✉</div><h3>Challenge shared</h3><p>On the morning of the event the creative challenge is shared with all competing teams.</p></article>
+        <article class="timeline-step"><div class="step-number">2</div><div class="step-icon">⌖</div><h3>Teams arrive</h3><p>Teams turn up physically at the event venue. This is a live competition, not a remote build.</p></article>
+        <article class="timeline-step"><div class="step-number">3</div><div class="step-icon">⌨</div><h3>Build room</h3><p>Teams get a room to work in, with food and drinks provided while they build.</p></article>
+        <article class="timeline-step"><div class="step-number">4</div><div class="step-icon">●</div><h3>Round 1: Pitch</h3><p>Each team gets five minutes on stage to pitch its idea to the audience.</p></article>
+        <article class="timeline-step whammy"><div class="step-number">5</div><div class="step-icon">ϟ</div><h3>The Whammy</h3><p>After Round 1 the audience voted Whammy is revealed. It adds a curve ball that teams must include in their solution.</p></article>
+        <article class="timeline-step"><div class="step-number">6</div><div class="step-icon">▥</div><h3>Round 2: Elimination</h3><p>Each team gets five minutes again to show its idea, architecture and a demo if possible. The audience votes on the two finalists.</p></article>
+        <article class="timeline-step final"><div class="step-number">7</div><div class="step-icon">♜</div><h3>Round 3: Final</h3><p>The audience and judges vote on the winner. Cash and the trophy are awarded on stage immediately. No delays. No gift cards. Real cash.</p></article>
+      </div>
+    </section>
+
+    <section class="section community-panel" id="community">
+      <div class="whatsapp-mark" aria-hidden="true">☎</div>
+      <div class="community-copy">
+        <p class="eyebrow">Keep the energy going</p>
+        <h2>Join the HackerRivals community</h2>
+        <p>Use the WhatsApp community channel to stay connected between events.</p>
+        <div class="community-reasons">
+          <span>Continue the vibe after celebration events</span>
+          <span>Find people to form a team</span>
+          <span>Chat with past winners and contestants</span>
+          <span>Engage in the community worldwide</span>
+        </div>
+      </div>
+      <a class="btn whatsapp-btn" data-link="whatsapp" href="#">Join the WhatsApp channel</a>
+    </section>
+
+    <section class="section sponsor-section" id="sponsors">
+      <p class="eyebrow centered-text">Past sponsors</p>
+      <div class="sponsor-row" id="sponsor-row" aria-label="Past sponsors"></div>
+    </section>
+
+    <section class="section resources" id="resources">
+      <div class="section-heading"><p class="eyebrow">Everything you need to know</p><h2>Rules, conduct and <span>FAQ</span></h2></div>
+      <div class="resource-grid">
+        <button class="resource-card" type="button" data-modal="rules-modal"><span class="resource-icon">▤</span><strong>View competition rules</strong><span>Team composition, challenge release, AI, equipment, stage timing and more.</span><b>Open rules →</b></button>
+        <button class="resource-card" type="button" data-modal="conduct-modal"><span class="resource-icon">⬡</span><strong>View code of conduct</strong><span>Respect, inclusion, fair play, professionalism, safety and reporting.</span><b>Open code →</b></button>
+        <a class="resource-card" href="#faq"><span class="resource-icon">?</span><strong>View FAQ</strong><span>Answers to common questions about the competition and audience experience.</span><b>Jump to FAQ →</b></a>
+      </div>
+      <div class="faq" id="faq"><h3>Frequently asked questions</h3><div id="faq-list"></div></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="#top"><img src="assets/images/hackerrivals-logo.png" alt="HackerRivals.com"></a>
+    <p>Tech for a brighter tomorrow</p>
+    <nav aria-label="Footer navigation"><a href="#world">Events</a><a href="#host">Host</a><a href="#about">About</a><a href="#community">Community</a><a data-link="contact" href="mailto:info@hackerrivals.com">Contact</a></nav>
+  </footer>
+
+  <dialog class="modal" id="rules-modal"><div class="modal-inner"><button class="modal-close" type="button" aria-label="Close">×</button><p class="eyebrow">HackerRivals</p><h2>Competition rules and guidelines</h2><div class="modal-content" id="rules-content"></div></div></dialog>
+  <dialog class="modal" id="conduct-modal"><div class="modal-inner"><button class="modal-close" type="button" aria-label="Close">×</button><p class="eyebrow">HackerRivals</p><h2>Code of conduct</h2><div class="modal-content" id="conduct-content"></div></div></dialog>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>

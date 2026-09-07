@@ -1,0 +1,281 @@
+# ================================================================
+# HACKERRIVALS WEBSITE CONFIG TEMPLATE
+# ================================================================
+# This template contains NO MOCK EVENT OR LEADERBOARD DATA.
+# Rename this file to site-config.txt when you want a clean start.
+#
+# The FAQ, Competition Rules and Code of Conduct remain populated
+# because they are real HackerRivals content, not mock data.
+# The real WhatsApp community URL is also retained.
+#
+# Blank city and team sections are safely ignored by the website.
+# ================================================================
+
+[SETTINGS]
+asset_version=1
+leaderboard_note=
+
+[LINKS]
+compete=
+register_team=
+sponsor=
+volunteer=
+host=
+recruiter=
+whatsapp=https://chat.whatsapp.com/L9Z2p06xVni54tesKcIGeL
+complete_leaderboard=
+contact=
+
+# CITY CARDS
+# status must be compete, host, or celebrate.
+
+[CITY 1]
+city=
+country=
+status=
+url=
+image=content/city-images/01-city.jpg
+
+[CITY 2]
+city=
+country=
+status=
+url=
+image=content/city-images/02-city.jpg
+
+[CITY 3]
+city=
+country=
+status=
+url=
+image=content/city-images/03-city.jpg
+
+[CITY 4]
+city=
+country=
+status=
+url=
+image=content/city-images/04-city.jpg
+
+[CITY 5]
+city=
+country=
+status=
+url=
+image=content/city-images/05-city.jpg
+
+[CITY 6]
+city=
+country=
+status=
+url=
+image=content/city-images/06-city.jpg
+
+# LEADERBOARD
+# TEAM 1 uses 01-team-logo.png, TEAM 2 uses 02-team-logo.png, etc.
+
+[TEAM 1]
+rank=
+name=
+members=
+points=
+cash=
+
+[TEAM 2]
+rank=
+name=
+members=
+points=
+cash=
+
+[TEAM 3]
+rank=
+name=
+members=
+points=
+cash=
+
+[TEAM 4]
+rank=
+name=
+members=
+points=
+cash=
+
+[TEAM 5]
+rank=
+name=
+members=
+points=
+cash=
+
+# ------------------------------------------------
+# PAST SPONSORS
+# These are real past sponsor names. Logo artwork is either local
+# or loaded from the current public brand / HackerRivals assets.
+# theme can be light or dark.
+# ------------------------------------------------
+
+[SPONSOR 1]
+name=AWS
+image=https://upload.wikimedia.org/wikipedia/commons/f/f1/Aws_logo.svg
+theme=light
+
+[SPONSOR 2]
+name=Microsoft
+image=content/sponsor-logos/02-microsoft-logo.svg
+theme=dark
+
+[SPONSOR 3]
+name=Google Cloud
+image=https://upload.wikimedia.org/wikipedia/commons/5/5a/Lockup_GoogleCloud_FullColor_rgb_2900x512px.png
+theme=light
+
+[SPONSOR 4]
+name=Elastic
+image=https://raw.githubusercontent.com/HackerRivals/hackerrivals.github.io/main/src/assets/elasticsearch-logo.svg
+theme=light
+
+[SPONSOR 5]
+name=Couchbase
+image=https://raw.githubusercontent.com/HackerRivals/hackerrivals.github.io/main/src/assets/couchbase-logo.svg
+theme=light
+
+[SPONSOR 6]
+name=BDO
+image=content/sponsor-logos/06-bdo-logo.jpg
+theme=dark
+
+# FAQ
+
+[FAQ 1]
+question=What makes this different from a traditional hackathon?
+answer=HackerRivals is built as a spectator experience: a fast three hour competition with live audience participation, entertainment and on stage presentations.
+
+[FAQ 2]
+question=How does the eSports competition format work?
+answer=Teams move through three rounds: concept presentation, an elimination round, then a championship final with polished presentations and demos where possible.
+
+[FAQ 3]
+question=How can the audience participate in the competition?
+answer=The audience votes during the event, helps choose the Whammy challenge and plays a direct role in deciding which teams advance and win.
+
+[FAQ 4]
+question=Who can participate and how do teams qualify?
+answer=Teams can have one to five members. Applicants are screened for both technical ability and the ability to perform in a live audience environment.
+
+[FAQ 5]
+question=What are the technology requirements and sponsor integrations?
+answer=Cloud credits and sponsor technologies may be provided. Sponsor tools can be part of challenges, while competition development happens live during the event.
+
+[FAQ 6]
+question=What entertainment elements can spectators expect?
+answer=Expect a produced live show with an MC, big screens, voting, live statistics and interactive audience moments throughout the competition.
+
+[FAQ 7]
+question=What are the prizes and recognition?
+answer=Winners receive real cash, the HackerRivals trophy and event recognition. Sponsor credits, swag and other benefits can vary by event.
+
+[FAQ 8]
+question=Where exactly is the event located?
+answer=The currently published FAQ lists Northeastern University at 375 Queen St W in Toronto, with a nearby VIP after party location for that event.
+
+[FAQ 9]
+question=How do tickets work and why do you charge?
+answer=Ticketing depends on the event. Larger host events manage their own tickets; standalone events may charge to control attendance, with proceeds supporting the nominated charity.
+
+[FAQ 10]
+question=What amenities and support are provided?
+answer=Offerings vary, but events may include food, drinks, WiFi, livestreaming, workshops, sponsor demos, technical support, security and event coordination.
+
+[FAQ 11]
+question=How should I prepare for the competition?
+answer=Practice the relevant technologies, but do not build the competition project in advance. The challenge is revealed on competition day.
+
+[FAQ 12]
+question=What happens if I want to attend as a spectator only?
+answer=Spectators can watch the rounds, participate in voting, enjoy the production, network and take part in the live HackerRivals experience.
+
+# COMPETITION RULES
+
+[RULE 1]
+title=Team composition
+text=Teams may have up to five members, with one registered leader. Extra human help outside the registered team can cause immediate elimination.
+
+[RULE 2]
+title=Onboarding
+text=Selected teams must attend mandatory onboarding calls. Missing onboarding can put the team place at risk.
+
+[RULE 3]
+title=Project assignment
+text=The official assignment is revealed on the morning of the event. Project development cannot begin before it is released.
+
+[RULE 4]
+title=Use of AI
+text=AI is encouraged for coding, design, ideation and support, but no extra human helpers beyond the registered team are allowed.
+
+[RULE 5]
+title=Intellectual property
+text=Teams keep ownership of their IP while granting HackerRivals permission to capture and share event media and project descriptions.
+
+[RULE 6]
+title=Selection and participation
+text=Applying does not guarantee selection. Teams are chosen by the HackerRivals committee and there is no competitor registration fee.
+
+[RULE 7]
+title=Equipment and internet
+text=Teams bring their own laptops, peripherals and adapters. Internet is provided, but speed and stability are not guaranteed.
+
+[RULE 8]
+title=Age
+text=There is no strict age restriction, although age information may be collected for venue or partner requirements.
+
+[RULE 9]
+title=Attendance and stage time
+text=Late arrival can lead to disqualification. Teams must follow presentation and Q and A time limits on stage.
+
+[RULE 10]
+title=Demos and judging
+text=Teams receive fixed demo and Q and A slots. Judging criteria and deadlines are shared during onboarding and on event day.
+
+[RULE 11]
+title=Safety and compliance
+text=Projects must be legal and safe. Teams must follow venue requirements, technical limits and the HackerRivals Code of Conduct.
+
+# CODE OF CONDUCT
+
+[CONDUCT 1]
+title=Respect and inclusion
+text=Treat everyone with dignity regardless of background, identity, age or skill level. Harassment, discrimination and abuse are not tolerated.
+
+[CONDUCT 2]
+title=Fair play and integrity
+text=Compete without cheating or sabotage. Sponsors and partners must act in good faith and protect the spirit of the event.
+
+[CONDUCT 3]
+title=Professionalism
+text=Keep interactions constructive and professional in person, online and on stage. Raise concerns through the appropriate organizer channels.
+
+[CONDUCT 4]
+title=Positive representation
+text=Sponsors and attendees should represent their organizations positively, with respectful, inclusive and community focused outreach.
+
+[CONDUCT 5]
+title=Collaboration and support
+text=Teams may collaborate for learning, but final submissions must be their own. Mentors should guide without taking over.
+
+[CONDUCT 6]
+title=Media and recording
+text=Attendance includes consent for HackerRivals to capture and publicly share event photos, video and audio for promotion and archives.
+
+[CONDUCT 7]
+title=Safety and compliance
+text=Follow venue rules and staff instructions. Unsafe projects, equipment misuse or safety violations can result in removal.
+
+[CONDUCT 8]
+title=Reporting issues
+text=Report violations promptly to a committee member or volunteer. Reports are investigated seriously and handled discreetly.
+
+[CONDUCT 9]
+title=Consequences
+text=Violations can lead to warnings, disqualification, removal, loss of sponsorship privileges or bans from future HackerRivals events.

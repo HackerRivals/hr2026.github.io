@@ -1,0 +1,118 @@
+HACKERRIVALS WEBSITE: NON TECHNICAL UPDATE GUIDE
+=================================================
+
+You normally only need to touch TWO places:
+
+1. site-config.txt
+2. the content folder
+
+You do NOT need to edit HTML, CSS or JavaScript.
+
+
+A. START WITH THE MOCK OR CLEAN CONFIG
+--------------------------------------
+site-config.txt contains a complete preview of the site.
+It includes current HackerRivals content plus mock data where a value is not yet final.
+Comments in the file clearly identify mock values.
+
+site-config-template.txt is the clean version.
+It has blank city, leaderboard and changeable link fields, while retaining the real FAQ, rules, code of conduct and WhatsApp URL.
+
+To switch to the clean version:
+1. Delete or rename site-config.txt
+2. Rename site-config-template.txt to site-config.txt
+3. Fill in the blank values
+
+
+B. CHANGE LINKS
+---------------
+Open site-config.txt in any text editor.
+Find [LINKS].
+Replace only the part after the = sign.
+
+Example:
+whatsapp=https://chat.whatsapp.com/L9Z2p06xVni54tesKcIGeL
+
+If a link is left blank in the clean template, the website disables that button rather than sending visitors to a broken destination.
+
+
+C. UPDATE THE LEADERBOARD
+-------------------------
+Find [TEAM 1] through [TEAM 5] in site-config.txt.
+Edit:
+rank=
+name=
+members=
+points=
+cash=
+
+Separate team member names with a vertical bar:
+members=Alex Smith | Priya Singh | Morgan Lee
+
+The website automatically uses these fixed logo filenames:
+TEAM 1 -> content/team-logos/01-team-logo.png
+TEAM 2 -> content/team-logos/02-team-logo.png
+TEAM 3 -> content/team-logos/03-team-logo.png
+TEAM 4 -> content/team-logos/04-team-logo.png
+TEAM 5 -> content/team-logos/05-team-logo.png
+
+To change a team logo, replace the matching PNG file.
+Keep the filename exactly the same.
+
+If the browser still shows the old logo, increase asset_version in site-config.txt.
+For example, change asset_version=2 to asset_version=3.
+
+
+D. CHANGE A CITY TO COMPETE, HOST OR CELEBRATE
+-----------------------------------------------
+Find the city's [CITY] section.
+Set status to exactly one of these words:
+compete
+host
+celebrate
+
+Then change url= to the correct destination page or form.
+
+Example:
+status=compete
+url=https://example.com/team-entry-form
+
+Each city image is in content/city-images/.
+The fixed filenames are 01-city.jpg through 06-city.jpg.
+
+Blank CITY sections in the clean template are ignored automatically.
+
+
+E. EDIT FAQ, RULES OR CODE OF CONDUCT
+--------------------------------------
+These are already populated from the currently published HackerRivals content, so you do not need to reenter them.
+They are also retained in site-config-template.txt.
+
+Edit the text after question=, answer=, title= or text= only when you want to change the published content.
+
+
+F. PAST SPONSOR LOGOS
+---------------------
+Past sponsors are also controlled from site-config.txt using [SPONSOR 1], [SPONSOR 2] and so on.
+Each sponsor has:
+name=
+image=
+theme=
+
+The current real list is AWS, Microsoft, Google Cloud, Elastic, Couchbase and BDO.
+
+Microsoft and BDO use fixed files in content/sponsor-logos/.
+AWS and Google Cloud use current public brand artwork URLs.
+Elastic and Couchbase use the exact logo assets from the public HackerRivals repository.
+
+If you later save an approved logo locally, put it in content/sponsor-logos/ and change image= to that file path.
+
+
+G. PUBLISH ON GITHUB PAGES
+--------------------------
+Commit your changed files to the repository.
+GitHub Pages will serve the new version automatically after deployment.
+
+IMPORTANT:
+Opening index.html directly from your computer may not load site-config.txt because browsers restrict local file access.
+View the site through GitHub Pages or another web server.
