@@ -12,7 +12,7 @@
 # ================================================================
 
 [SETTINGS]
-asset_version=3
+asset_version=4
 leaderboard_note=
 
 [LINKS]

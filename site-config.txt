@@ -20,7 +20,7 @@ underground=http://lu.ma/hackerrivals, [TEAM 1], etc.
 # ================================================================
 
 [SETTINGS]
-asset_version=3
+asset_version=4
 leaderboard_note=Team names, members and points use the current public HackerRivals standings. Cash totals are mock preview values and should be replaced before publishing.
 
 [LINKS]
