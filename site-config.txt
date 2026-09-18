@@ -45,14 +45,14 @@ contact=mailto:info@hackerrivals.com
 [CITY 1]
 city=Vancouver
 country=Canada
-status=compete
+status=celebrate
 url=https://hackerrivals.com/
 image=content/city-images/01-city.jpg
 
 [CITY 2]
 city=Toronto
 country=Canada
-status=compete
+status=host
 url=https://hackerrivals.com/
 image=content/city-images/02-city.jpg
 
@@ -66,7 +66,7 @@ image=content/city-images/03-city.jpg
 [CITY 4]
 city=London
 country=UK
-status=celebrate
+status=compete
 url=https://hackerrivals.com/
 image=content/city-images/04-city.jpg
 
@@ -80,7 +80,7 @@ image=content/city-images/05-city.jpg
 [CITY 6]
 city=Sydney
 country=Australia
-status=celebrate
+status=compete
 url=https://hackerrivals.com/
 image=content/city-images/06-city.jpg
 
