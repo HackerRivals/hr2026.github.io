@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="520" height="110" viewBox="0 0 520 110" role="img" aria-label="Microsoft">
-  <rect width="520" height="110" fill="none"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="365" height="95" viewBox="0 5 365 95" role="img" aria-label="Microsoft">
+  <rect width="520" height="110" fill="#ffffff"/>
   <g transform="translate(8 15)">
     <rect x="0" y="0" width="36" height="36" fill="#F25022"/>
     <rect x="41" y="0" width="36" height="36" fill="#7FBA00"/>
     <rect x="0" y="41" width="36" height="36" fill="#00A4EF"/>
     <rect x="41" y="41" width="36" height="36" fill="#FFB900"/>
   </g>
-  <text x="105" y="75" fill="#f4f4f4" font-family="Segoe UI, Arial, sans-serif" font-size="58" font-weight="400">Microsoft</text>
+  <text x="105" y="75" fill="#737373" font-family="Segoe UI, Arial, sans-serif" font-size="58" font-weight="400">Microsoft</text>
 </svg>

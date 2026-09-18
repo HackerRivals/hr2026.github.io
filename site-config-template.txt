@@ -12,10 +12,11 @@
 # ================================================================
 
 [SETTINGS]
-asset_version=1
+asset_version=3
 leaderboard_note=
 
 [LINKS]
+underground=http://lu.ma/hackerrivals
 compete=
 register_team=
 sponsor=
@@ -124,7 +125,7 @@ theme=light
 [SPONSOR 2]
 name=Microsoft
 image=content/sponsor-logos/02-microsoft-logo.svg
-theme=dark
+theme=light
 
 [SPONSOR 3]
 name=Google Cloud
@@ -143,8 +144,8 @@ theme=light
 
 [SPONSOR 6]
 name=BDO
-image=content/sponsor-logos/06-bdo-logo.jpg
-theme=dark
+image=content/sponsor-logos/06-bdo-logo.svg
+theme=light
 
 # FAQ
 

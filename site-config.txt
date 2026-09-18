@@ -4,7 +4,8 @@
 # EDIT THIS FILE TO UPDATE THE WEBSITE.
 # Lines beginning with # are comments and are ignored.
 # Keep each setting on one line in the form name=value.
-# Do not rename section headings such as [LINKS], [TEAM 1], etc.
+# Do not rename section headings such as [LINKS]
+underground=http://lu.ma/hackerrivals, [TEAM 1], etc.
 #
 # This file intentionally contains a mixture of REAL CURRENT DATA
 # and MOCK DISPLAY DATA so the website looks complete while you
@@ -19,10 +20,11 @@
 # ================================================================
 
 [SETTINGS]
-asset_version=2
+asset_version=3
 leaderboard_note=Team names, members and points use the current public HackerRivals standings. Cash totals are mock preview values and should be replaced before publishing.
 
 [LINKS]
+underground=http://lu.ma/hackerrivals
 compete=https://hackerrivals.com/
 register_team=https://hackerrivals.com/
 sponsor=mailto:info@hackerrivals.com?subject=HackerRivals%20Sponsorship
@@ -140,7 +142,7 @@ theme=light
 [SPONSOR 2]
 name=Microsoft
 image=content/sponsor-logos/02-microsoft-logo.svg
-theme=dark
+theme=light
 
 [SPONSOR 3]
 name=Google Cloud
@@ -159,8 +161,8 @@ theme=light
 
 [SPONSOR 6]
 name=BDO
-image=content/sponsor-logos/06-bdo-logo.jpg
-theme=dark
+image=content/sponsor-logos/06-bdo-logo.svg
+theme=light
 
 # ------------------------------------------------
 # FAQ

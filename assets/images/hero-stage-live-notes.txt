@@ -1,0 +1,11 @@
+Generated with the built-in image_gen tool using the original hero-stage.jpg as the edit target.
+
+Final image prompt:
+Edit this existing HackerRivals website hero photograph. Remove completely the small framed chalkboard/sign in the lower-right foreground behind the cash; reconstruct the audience, dim auditorium and table naturally in that space. Keep the original composition, stage screen branding Hacker Rivals.com, the emcee's location on stage (about x33%, y47%), seated crowd, foreground gold trophy in center and stacks of cash. Make the scene more impressive with premium crisp photographic detail, a luminous reflective gold trophy, richer blue/cyan/violet stage lighting and subtly atmospheric light beams, a polished exciting live technology event atmosphere. Preserve framing and placement of all major objects so this can be used as a cinemagraph base with local animation; crowd below 55% image height, trophy centered foreground. No chalkboard, no new signs, no added text, no confetti, no extra trophies. Improve believable human figures without changing their positions. Keep same landscape aspect ratio approximately 1400:1210. Output one high-quality still image.
+
+Delivery:
+Compressed to hero-stage-live.webp (1349 x 1166).
+hero-motion.js applies subtle localized motion and light effects in the browser.
+This is a cinemagraph-style still-image animation, not generated video or lip-synced speech.
+The original hero-stage.jpg is retained. The new image is also the static fallback.
+Motion uses integer harmonics of a 24-second cycle, with pause and reduced-motion support.
