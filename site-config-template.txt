@@ -134,7 +134,7 @@ theme=light
 
 [SPONSOR 4]
 name=Elastic
-image=content/sponsor-logos/04-elastic-logo.png
+image=content/sponsor-logos/04-elastic-logo.svg
 theme=light
 
 [SPONSOR 5]
@@ -163,7 +163,7 @@ answer=The audience votes during the event, helps choose the Whammy challenge an
 
 [FAQ 4]
 question=Who can participate and how do teams qualify?
-answer=Teams can have one to five members. Registering does not guarantee a place at an in-person event. One week before, all applicant teams complete an online challenge to determine who qualifies. For the largest major in-person events, a 1-hour online hackathon serves as that selection round. Successful teams advance to the 3-hour in-person competition.
+answer=Teams can have one to five members. In-person events have a limited number of team spots, decided through online qualification. Two weeks before, all applicant teams complete an online challenge to determine who qualifies. For the largest major in-person events, a 1-hour online hackathon serves as that selection round. Successful teams advance to the 3-hour in-person competition.
 
 [FAQ 5]
 question=What are the technology requirements and sponsor integrations?
@@ -221,7 +221,7 @@ text=Teams keep ownership of their IP while granting HackerRivals permission to 
 
 [RULE 6]
 title=Selection and participation
-text=Applying does not guarantee selection for an in-person event. One week before, all applicant teams take part in an online challenge; for the largest major events, this is a 1-hour online hackathon. Teams that qualify advance to the 3-hour in-person event. Teams are selected by the HackerRivals committee, and there is no competitor registration fee.
+text=In-person events have a limited number of team spots, determined through online qualification. Two weeks before, all applicant teams take part in an online challenge; for the largest major events, this is a 1-hour online hackathon. Teams that qualify advance to the 3-hour in-person event. Teams are selected by the HackerRivals committee, and there is no competitor registration fee.
 
 [RULE 7]
 title=Equipment and internet
@@ -283,4 +283,4 @@ text=Violations can lead to warnings, disqualification, removal, loss of sponsor
 
 [FAQ 13]
 question=Are the 1-hour online hackathons always qualifiers?
-answer=No. Our 1-hour online hackathons are often standalone events. Some are held one week before a major 3-hour in-person event to decide which teams qualify for the in-person competition.
+answer=No. Our 1-hour online hackathons are often standalone events. Some are held two weeks before a major 3-hour in-person event to decide which teams qualify for the in-person competition.

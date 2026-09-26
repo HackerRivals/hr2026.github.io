@@ -15,3 +15,5 @@ If you later want every logo stored locally, download the approved sponsor artwo
 BDO vector source: https://commons.wikimedia.org/wiki/File:BDO_Deutsche_Warentreuhand_Logo.svg
 
 04-elastic-logo.png: Official Elastic company logo (not the Elasticsearch product logo). Source: https://www.elastic.co/static-res/images/elastic-logo-200.png
+
+04-elastic-logo.svg: Official full-color Elastic icon and wordmark. Source: https://www.elastic.co/static-res/images/elastic-logo.svg

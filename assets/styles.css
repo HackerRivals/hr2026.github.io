@@ -102,7 +102,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .involve-card p { color: #c9d5d9; margin: 0; }
 .involve-card a { color: currentColor; text-decoration: none; font-weight: 900; margin-top: auto; padding-top: 18px; }
 .event-flow { max-width: 100%; padding-left: max(24px, calc((100vw - 1380px) / 2)); padding-right: max(24px, calc((100vw - 1380px) / 2)); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); background: rgba(2, 11, 16, .55); }
-.timeline { display: grid; grid-template-columns: repeat(7, 1fr); gap: 10px; }
+.timeline { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; }
 .timeline-step { position: relative; padding: 48px 14px 18px; min-height: 285px; border-left: 1px solid rgba(55, 207, 224, .18); text-align: center; }
 .timeline-step:first-child { border-left: 0; }
 .step-number { width: 30px; height: 30px; display: grid; place-items: center; border-radius: 50%; background: var(--cyan); color: #001318; font-weight: 1000; position: absolute; top: 6px; left: 50%; transform: translateX(-50%); }
