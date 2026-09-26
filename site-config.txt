@@ -13,7 +13,7 @@ underground=http://lu.ma/hackerrivals, [TEAM 1], etc.
 #
 # REAL CURRENT DATA: leaderboard team names, members and points,
 # FAQ topics, competition rules, code of conduct, WhatsApp URL.
-# MOCK DISPLAY DATA: cash totals, city event states and most action URLs.
+# MOCK DISPLAY DATA: city event states and most action URLs.
 #
 # If you replace an image but the old image still appears, increase
 # asset_version by 1 and commit this file again.
@@ -21,7 +21,7 @@ underground=http://lu.ma/hackerrivals, [TEAM 1], etc.
 
 [SETTINGS]
 asset_version=4
-leaderboard_note=Team names, members and points use the current public HackerRivals standings. Cash totals are mock preview values and should be replaced before publishing.
+leaderboard_note=
 
 [LINKS]
 underground=http://lu.ma/hackerrivals
@@ -87,7 +87,7 @@ image=content/city-images/06-city.jpg
 # ------------------------------------------------
 # LEADERBOARD
 # Names, members and points below use the current public standings.
-# CASH VALUES ARE MOCK DISPLAY DATA. Replace them before publishing.
+# Cash totals are maintained below.
 # TEAM 1 always uses content/team-logos/01-team-logo.png, and so on.
 # Separate member names with the | character.
 # ------------------------------------------------
@@ -97,35 +97,35 @@ rank=1
 name=Merge_Conflicts
 members=Kushagra | Sayuj | Sarim
 points=700
-cash=CA$2,500
+cash=$1,000
 
 [TEAM 2]
 rank=2
 name=JugHeads
 members=Mehrdad | Monzer | Sotheng | Nichanun
 points=500
-cash=CA$1,000
+cash=$1,000
 
 [TEAM 3]
 rank=3
 name=Semiahmoo Secondary Team
 members=Kairui | Bernie | Dreyson
 points=200
-cash=CA$500
+cash=$0
 
 [TEAM 4]
 rank=4
 name=Team Cypress
 members=Kansuke | Tomohiro | Wataru | Keita | Nagomi
 points=100
-cash=CA$250
+cash=$0
 
 [TEAM 5]
 rank=4
 name=Pacific
 members=Richard | Tomoya | Luis | Takanobu
 points=100
-cash=CA$250
+cash=$0
 
 # ------------------------------------------------
 # PAST SPONSORS
