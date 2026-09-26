@@ -162,6 +162,7 @@ question=How can the audience participate in the competition?
 answer=The audience votes during the event, helps choose the Whammy challenge and plays a direct role in deciding which teams advance and win.
 
 [FAQ 4]
+anchor=qualify
 question=Who can participate and how do teams qualify?
 answer=Teams can have one to five members. In-person events have a limited number of team spots, decided through online qualification. Two weeks before, all applicant teams complete an online challenge to determine who qualifies. For the largest major in-person events, a 1-hour online hackathon serves as that selection round. Successful teams advance to the 3-hour in-person competition.
 
@@ -174,8 +175,9 @@ question=What entertainment elements can spectators expect?
 answer=Expect a produced live show with an MC, big screens, voting, live statistics and interactive audience moments throughout the competition.
 
 [FAQ 7]
+anchor=final
 question=What are the prizes and recognition?
-answer=Winners receive real cash, the HackerRivals trophy and event recognition. Sponsor credits, swag and other benefits can vary by event.
+answer=In the final round of the in-person event, the audience and judges vote on the winner. Cash prizes and the HackerRivals trophy are awarded on stage immediately. Sponsor credits, swag and other benefits can vary by event.
 
 [FAQ 8]
 question=Where exactly is the event located?
@@ -186,12 +188,14 @@ question=How do tickets work and why do you charge?
 answer=Ticketing depends on the event. Larger host events manage their own tickets; standalone events may charge to control attendance, with proceeds supporting the nominated charity.
 
 [FAQ 10]
+anchor=build
 question=What amenities and support are provided?
-answer=Offerings vary, but events may include food, drinks, WiFi, livestreaming, workshops, sponsor demos, technical support, security and event coordination.
+answer=At the in-person event, teams build in a dedicated room with food and drinks provided. Other support varies by event and may include WiFi, workshops, sponsor demos and technical support.
 
 [FAQ 11]
+anchor=challenge
 question=How should I prepare for the competition?
-answer=Practice the relevant technologies, but do not build the competition project in advance. The challenge is revealed on competition day.
+answer=Practice the relevant technologies, but do not build the competition project in advance. The creative challenge is shared with qualified teams on the morning of the in-person event; development begins only after it is released.
 
 [FAQ 12]
 question=What happens if I want to attend as a spectator only?
@@ -284,3 +288,23 @@ text=Violations can lead to warnings, disqualification, removal, loss of sponsor
 [FAQ 13]
 question=Are the 1-hour online hackathons always qualifiers?
 answer=No. Our 1-hour online hackathons are often standalone events. Some are held two weeks before a major 3-hour in-person event to decide which teams qualify for the in-person competition.
+
+[FAQ 14]
+anchor=arrival
+question=Where do qualified teams compete?
+answer=Qualified teams attend the event venue in person for the 3-hour competition. Arrive ready to build and present on stage; follow the arrival and onboarding instructions for your event.
+
+[FAQ 15]
+anchor=first-pitch
+question=What happens in the first pitch round?
+answer=Each team gets five minutes on stage to pitch its idea to the audience in the first round of the in-person competition.
+
+[FAQ 16]
+anchor=whammy
+question=What is the Whammy?
+answer=After the first pitch round, an audience-voted Whammy challenge is revealed. It adds a curve ball that teams must incorporate into their solution.
+
+[FAQ 17]
+anchor=elimination
+question=How does the elimination round work?
+answer=Each team gets another five minutes to present its idea, architecture and a demo if possible. The audience votes to choose the two finalists.

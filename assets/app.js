@@ -64,7 +64,7 @@
 
     data.faq = data.faq
       .filter(item => (item.question || '').trim())
-      .map(item => ({ q: item.question || '', a: item.answer || '' }));
+      .map(item => ({ q: item.question || '', a: item.answer || '', anchor: /^[a-z0-9-]+$/.test(item.anchor || '') ? item.anchor : '' }));
 
     data.rules = data.rules
       .filter(item => (item.title || '').trim())
@@ -192,11 +192,29 @@
     const faqList = document.getElementById('faq-list');
     faqList.innerHTML = data.faq.length
       ? data.faq.map((item, i) => `
-          <details class="faq-item" ${i === 0 ? 'open' : ''}>
+          <details class="faq-item" id="faq-${item.anchor || (i + 1)}" ${i === 0 ? 'open' : ''}>
             <summary>${item.q}</summary>
             <p>${item.a}</p>
           </details>`).join('')
       : '<p class="empty-state">Add FAQ sections to site-config.txt to show questions here.</p>';
+
+    function revealLinkedFaq(focus = false) {
+      const target = document.getElementById(location.hash.slice(1));
+      if (!target || !target.matches('details.faq-item')) return;
+      target.open = true;
+      if (focus) target.querySelector('summary').focus({ preventScroll: true });
+      target.scrollIntoView({ block: 'start' });
+    }
+    document.querySelectorAll('[data-faq-link]').forEach(link => {
+      link.addEventListener('click', event => {
+        if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+        event.preventDefault();
+        if (location.hash !== link.hash) history.pushState(null, '', link.hash);
+        revealLinkedFaq(true);
+      });
+    });
+    window.addEventListener('hashchange', () => revealLinkedFaq());
+    revealLinkedFaq();
 
     const renderSections = (items, emptyMessage) => items.length
       ? items.map(([title, copy]) => `<section class="modal-rule"><h3>${title}</h3><p>${copy}</p></section>`).join('')
