@@ -1,25 +1,48 @@
 (() => {
   const escapeHtml = value => String(value).replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
   const formDialog = document.getElementById('form-modal');
-  document.querySelectorAll('[data-embed-form]').forEach(link => {
-    link.addEventListener('click', event => {
-      if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+  function tallyForm(url) {
+    return /^(www\.)?tally\.so$/.test(url.hostname) && url.pathname.match(/^\/(?:r|embed)\/([A-Za-z0-9]+)\/?$/);
+  }
+  function updateLinks() {
+    document.querySelectorAll('a[href]').forEach(link => {
       const url = new URL(link.href, location.href);
-      const match = url.pathname.match(/^\/r\/([A-Za-z0-9]+)$/);
-      if (url.hostname !== 'tally.so' || !match) return;
-      event.preventDefault();
-      const title = link.closest('article').querySelector('h3').textContent;
-      document.getElementById('form-title').textContent = title;
-      const frame = document.getElementById('tally-frame');
-      frame.title = title + ' form';
-      frame.src = `https://tally.so/embed/${match[1]}?alignLeft=1&hideTitle=1`;
-      document.getElementById('form-external-link').href = url.href;
-      formDialog.showModal();
+      if (tallyForm(url)) {
+        link.removeAttribute('target');
+        link.setAttribute('aria-haspopup', 'dialog');
+      } else if (/^https?:$/.test(url.protocol) && url.origin !== location.origin) {
+        link.target = '_blank';
+        link.relList.add('noopener', 'noreferrer');
+      }
     });
+  }
+  updateLinks();
+  document.addEventListener('click', event => {
+    const link = event.target.closest('a[href]');
+    if (!link) return;
+    const url = new URL(link.href, location.href);
+    const match = tallyForm(url);
+    if (!match) return;
+    event.preventDefault();
+    const title = link.textContent.trim().replace(/[→↗]/g, '').trim() || 'HackerRivals form';
+    document.getElementById('form-title').textContent = title;
+    const frame = document.getElementById('tally-frame');
+    frame.title = title + ' form';
+    const embed = new URL(url);
+    embed.pathname = '/embed/' + match[1];
+    embed.searchParams.set('alignLeft', '1');
+    embed.searchParams.set('hideTitle', '1');
+    frame.src = embed.href;
+    formDialog.showModal();
+  });
+  document.getElementById('form-reload').addEventListener('click', () => {
+    const frame = document.getElementById('tally-frame');
+    frame.src = frame.src;
   });
   formDialog.addEventListener('close', () => document.getElementById('tally-frame').src = 'about:blank');
 
   window.HackerRivalsUI = {
+    updateLinks,
     renderLeaderboard(teams, version) {
       const search = document.getElementById('team-search');
       const previous = document.getElementById('teams-previous');
