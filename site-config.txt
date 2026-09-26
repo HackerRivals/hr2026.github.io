@@ -151,7 +151,7 @@ theme=light
 
 [SPONSOR 4]
 name=Elastic
-image=https://raw.githubusercontent.com/HackerRivals/hackerrivals.github.io/main/src/assets/elasticsearch-logo.svg
+image=content/sponsor-logos/04-elastic-logo.png
 theme=light
 
 [SPONSOR 5]
@@ -171,7 +171,7 @@ theme=light
 
 [FAQ 1]
 question=What makes this different from a traditional hackathon?
-answer=HackerRivals is built as a spectator experience: a fast three hour competition with live audience participation, entertainment and on stage presentations.
+answer=HackerRivals combines 1-hour online hackathons with 3-hour in-person competitions built for a live audience. In-person events feature audience participation, entertainment and on-stage presentations, and teams qualify for their place before event day.
 
 [FAQ 2]
 question=How does the eSports competition format work?
@@ -183,7 +183,7 @@ answer=The audience votes during the event, helps choose the Whammy challenge an
 
 [FAQ 4]
 question=Who can participate and how do teams qualify?
-answer=Teams can have one to five members. Applicants are screened for both technical ability and the ability to perform in a live audience environment.
+answer=Teams can have one to five members. Registering does not guarantee a place at an in-person event. One week before, all applicant teams complete an online challenge to determine who qualifies. For the largest major in-person events, a 1-hour online hackathon serves as that selection round. Successful teams advance to the 3-hour in-person competition.
 
 [FAQ 5]
 question=What are the technology requirements and sponsor integrations?
@@ -244,7 +244,7 @@ text=Teams keep ownership of their IP while granting HackerRivals permission to 
 
 [RULE 6]
 title=Selection and participation
-text=Applying does not guarantee selection. Teams are chosen by the HackerRivals committee and there is no competitor registration fee.
+text=Applying does not guarantee selection for an in-person event. One week before, all applicant teams take part in an online challenge; for the largest major events, this is a 1-hour online hackathon. Teams that qualify advance to the 3-hour in-person event. Teams are selected by the HackerRivals committee, and there is no competitor registration fee.
 
 [RULE 7]
 title=Equipment and internet
@@ -306,3 +306,7 @@ text=Report violations promptly to a committee member or volunteer. Reports are 
 [CONDUCT 9]
 title=Consequences
 text=Violations can lead to warnings, disqualification, removal, loss of sponsorship privileges or bans from future HackerRivals events.
+
+[FAQ 13]
+question=Are the 1-hour online hackathons always qualifiers?
+answer=No. Our 1-hour online hackathons are often standalone events. Some are held one week before a major 3-hour in-person event to decide which teams qualify for the in-person competition.
