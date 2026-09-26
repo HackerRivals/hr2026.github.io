@@ -59,7 +59,7 @@
         members: (team.members || '').split('|').map(v => v.trim()).filter(Boolean),
         points: Number(String(team.points || '0').replace(/,/g, '')) || 0,
         cash: team.cash || '—',
-        logo: `content/team-logos/${String(index + 1).padStart(2, '0')}-team-logo.png`
+        logo: team.logo || (index < 5 ? `content/team-logos/${String(index + 1).padStart(2, '0')}-team-logo.png` : 'content/team-logos/default-team.svg')
       }));
 
     data.faq = data.faq
@@ -79,6 +79,7 @@
       .map(item => ({
         name: item.name,
         image: item.image,
+        url: item.url || '',
         theme: (item.theme || 'dark').toLowerCase() === 'light' ? 'light' : 'dark'
       }));
 
@@ -142,22 +143,9 @@
       setLink(el, data.links[key]);
     });
 
-    const leaderboardLink = document.getElementById('complete-leaderboard-link');
-    setLink(leaderboardLink, data.links.complete_leaderboard);
 
-    const rows = document.getElementById('leaderboard-rows');
-    if (data.leaderboard.length) {
-      rows.innerHTML = data.leaderboard.map(team => `
-        <tr>
-          <td class="rank">${team.rank}</td>
-          <td><div class="team-cell"><img class="team-logo" src="${versioned(team.logo, assetVersion)}" alt="${team.team} logo"><strong>${team.team}</strong></div></td>
-          <td>${team.members.join(' · ')}</td>
-          <td class="points">${team.points.toLocaleString()}</td>
-          <td class="cash">${team.cash}</td>
-        </tr>`).join('');
-    } else {
-      rows.innerHTML = '<tr><td class="empty-state" colspan="5">Add team details to the TEAM sections in site-config.txt to show the leaderboard.</td></tr>';
-    }
+
+    window.HackerRivalsUI.renderLeaderboard(data.leaderboard, assetVersion);
 
     const note = document.getElementById('leaderboard-note');
     if (note) note.textContent = data.settings.leaderboard_note || '';
@@ -185,7 +173,7 @@
     const sponsorRow = document.getElementById('sponsor-row');
     if (sponsorRow) {
       sponsorRow.innerHTML = data.sponsors.length
-        ? data.sponsors.map(sponsor => `<div class="sponsor logo-${sponsor.theme}"><img src="${versioned(sponsor.image, assetVersion)}" alt="${sponsor.name}"></div>`).join('')
+        ? data.sponsors.map(sponsor => `<a class="sponsor logo-${sponsor.theme}" href="${sponsor.url || '#'}" aria-label="Visit ${sponsor.name}"><img src="${versioned(sponsor.image, assetVersion)}" alt="${sponsor.name}"></a>`).join('')
         : '<p class="empty-state">Add SPONSOR sections to site-config.txt to show past sponsors.</p>';
     }
 

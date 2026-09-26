@@ -16,15 +16,15 @@ asset_version=4
 leaderboard_note=
 
 [LINKS]
-underground=http://lu.ma/hackerrivals
-compete=
-register_team=
-sponsor=
-volunteer=
-host=
-recruiter=
+underground=https://luma.com/hackerrivals
+compete=https://tally.so/r/nr7dgp
+register_team=https://tally.so/r/nr7dgp
+sponsor=https://tally.so/r/w5RGR6
+volunteer=https://tally.so/r/mOvb6Y
+host=https://tally.so/r/WOy6ee
+recruiter=https://tally.so/r/w5RGR6
 whatsapp=https://chat.whatsapp.com/L9Z2p06xVni54tesKcIGeL
-complete_leaderboard=
+complete_leaderboard=#complete-leaderboard-modal
 contact=
 
 # CITY CARDS
@@ -118,31 +118,37 @@ cash=
 # ------------------------------------------------
 
 [SPONSOR 1]
+url=https://aws.amazon.com/
 name=AWS
 image=https://upload.wikimedia.org/wikipedia/commons/f/f1/Aws_logo.svg
 theme=light
 
 [SPONSOR 2]
+url=https://www.microsoft.com/
 name=Microsoft
 image=content/sponsor-logos/02-microsoft-logo.svg
 theme=light
 
 [SPONSOR 3]
+url=https://about.google/
 name=Google Cloud
 image=https://upload.wikimedia.org/wikipedia/commons/5/5a/Lockup_GoogleCloud_FullColor_rgb_2900x512px.png
 theme=light
 
 [SPONSOR 4]
+url=https://www.elastic.co/
 name=Elastic
 image=content/sponsor-logos/04-elastic-logo.svg
 theme=light
 
 [SPONSOR 5]
+url=https://www.couchbase.com/
 name=Couchbase
 image=https://raw.githubusercontent.com/HackerRivals/hackerrivals.github.io/main/src/assets/couchbase-logo.svg
 theme=light
 
 [SPONSOR 6]
+url=https://www.bdo.ca/services/bdo-digital
 name=BDO
 image=content/sponsor-logos/06-bdo-logo.svg
 theme=light
@@ -185,7 +191,7 @@ answer=The currently published FAQ lists Northeastern University at 375 Queen St
 
 [FAQ 9]
 question=How do tickets work and why do you charge?
-answer=Ticketing depends on the event. Larger host events manage their own tickets; standalone events may charge to control attendance, with proceeds supporting the nominated charity.
+answer=All competitors receive a free ticket to the event so they can compete. Competitors who use that ticket to enter but then deliberately skip the competition will be removed from the event immediately and banned from all future HackerRivals events, including as a paid attendee or an online contestant. This policy protects the time and places reserved for genuine competitors. Spectator ticketing varies by event.
 
 [FAQ 10]
 anchor=build
@@ -308,3 +314,9 @@ answer=After the first pitch round, an audience-voted Whammy challenge is reveal
 anchor=elimination
 question=How does the elimination round work?
 answer=Each team gets another five minutes to present its idea, architecture and a demo if possible. The audience votes to choose the two finalists.
+
+[SPONSOR 7]
+name=5,000 Days
+image=content/sponsor-logos/07-5000days-logo.png
+theme=light
+url=https://5000days.net
