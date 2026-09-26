@@ -240,3 +240,5 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .timeline-step.final a { color: var(--gold); }
 .timeline-step a:focus-visible, .timeline:focus-visible { outline: 2px solid var(--cyan); outline-offset: -2px; }
 .faq-item { scroll-margin-top: 110px; }
+
+#leaderboard, #world, #register-team, #become-sponsor { scroll-margin-top: 110px; }
