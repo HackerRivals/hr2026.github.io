@@ -345,3 +345,27 @@ name=5,000 Days
 image=content/sponsor-logos/07-5000days-logo.png
 theme=light
 url=https://5000days.net
+
+[TEAM 6]
+rank=2
+name=Cake at Stake
+members=Sylvia Samojlenko
+points=500
+cash=$500
+logo=content/team-logos/06-team-logo.png
+
+[TEAM 7]
+rank=3
+name=Builders
+members=Maan Mandaliya | Dharmik Soni | Dhruv Soni | Het Shah
+points=200
+cash=$0
+logo=content/team-logos/07-team-logo.png
+
+[TEAM 8]
+rank=4
+name=Darth Shoes
+members=Punit Guddeti | Rohaan Mirza | Michael Ng
+points=100
+cash=$0
+logo=content/team-logos/08-team-logo.png
