@@ -204,6 +204,7 @@
     window.addEventListener('hashchange', () => revealLinkedFaq());
     revealLinkedFaq();
     window.HackerRivalsUI.updateLinks();
+    window.HackerRivalsMobile.setup();
 
     const renderSections = (items, emptyMessage) => items.length
       ? items.map(([title, copy]) => `<section class="modal-rule"><h3>${title}</h3><p>${copy}</p></section>`).join('')
