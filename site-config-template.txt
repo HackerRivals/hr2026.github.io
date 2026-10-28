@@ -163,7 +163,7 @@ answer=HackerRivals brings the community together through three official formats
 [FAQ 2]
 category=Arena
 question=How does the Arena competition format work?
-answer=Teams move through three rounds: concept presentation, an elimination round, then a Gathering AGI competition final with polished presentations and demos where possible.
+answer=Teams move through three rounds: concept presentation, an elimination round, then an Arena final with polished presentations and demos where possible.
 
 [FAQ 3]
 category=Arena
@@ -239,7 +239,7 @@ text=AI is encouraged for coding, design, ideation and support, but no extra hum
 
 [RULE 5]
 title=Intellectual property
-text=Teams retain ownership of their IP and grant HackerRivals permission to share event media and project descriptions. Gatherings: AGI Gathering AGI apps also grant competition publishing and promotional rights, with credit to the team and individual creators, plus continuing permission for credited website promotion and an archive after the competition. Teams decide their own ownership split; equal ownership is suggested, not required.
+text=Teams retain ownership of their IP and grant HackerRivals permission to share event media and project descriptions. Gathering AGI apps also grant competition publishing and promotional rights, with credit to the team and individual creators, plus continuing permission for credited website promotion and an archive after the competition. Teams decide their own ownership split; equal ownership is suggested, not required.
 
 [RULE 6]
 title=Selection and participation
