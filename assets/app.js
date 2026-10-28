@@ -64,7 +64,7 @@
 
     data.faq = data.faq
       .filter(item => (item.question || '').trim())
-      .map(item => ({ q: item.question || '', a: item.answer || '', anchor: /^[a-z0-9-]+$/.test(item.anchor || '') ? item.anchor : '' }));
+      .map(item => ({ q: item.question || '', a: item.answer || '', anchor: /^[a-z0-9-]+$/.test(item.anchor || '') ? item.anchor : '', category: ['General', 'Arena', 'Online', 'Gatherings'].includes(item.category) ? item.category : 'General' }));
 
     data.rules = data.rules
       .filter(item => (item.title || '').trim())
@@ -178,12 +178,21 @@
     }
 
     const faqList = document.getElementById('faq-list');
-    faqList.innerHTML = data.faq.length
-      ? data.faq.map((item, i) => `
-          <details class="faq-item" id="faq-${item.anchor || (i + 1)}" ${i === 0 ? 'open' : ''}>
-            <summary>${item.q}</summary>
-            <p>${item.a}</p>
-          </details>`).join('')
+    const faqTopics = ['General', 'Arena', 'Online', 'Gatherings'];
+    const faqGroups = faqTopics.map(category => ({
+      category,
+      items: data.faq.filter(item => item.category === category)
+    })).filter(group => group.items.length);
+    faqList.innerHTML = faqGroups.length
+      ? faqGroups.map(({ category, items }) => `
+        <section class="faq-group" aria-label="${category} FAQs">
+          <h4>${category}</h4>
+          ${items.map((item, i) => `
+            <details class="faq-item" id="faq-${item.anchor || (data.faq.indexOf(item) + 1)}" ${category === 'General' && i === 0 ? 'open' : ''}>
+              <summary>${item.q}</summary>
+              <p>${item.a}</p>
+            </details>`).join('')}
+        </section>`).join('')
       : '<p class="empty-state">Add FAQ sections to site-config.txt to show questions here.</p>';
 
     function revealLinkedFaq(focus = false) {
