@@ -157,10 +157,10 @@ theme=light
 
 [FAQ 1]
 question=What makes this different from a traditional hackathon?
-answer=HackerRivals combines 1-hour online hackathons with 3-hour in-person competitions built for a live audience. In-person events feature audience participation, entertainment and on-stage presentations, and teams qualify for their place before event day.
+answer=HackerRivals brings the community together through Arena, Online and Gatherings. Arena is the 3-hour live audience competition; Online offers 1-hour challenges, often standalone or used as Arena qualifiers. Special Gathering AGI events select apps for an App Championship lasting up to 18 months.
 
 [FAQ 2]
-question=How does the eSports competition format work?
+question=How does the Arena competition format work?
 answer=Teams move through three rounds: concept presentation, an elimination round, then a championship final with polished presentations and demos where possible.
 
 [FAQ 3]
@@ -170,7 +170,7 @@ answer=The audience votes during the event, helps choose the Whammy challenge an
 [FAQ 4]
 anchor=qualify
 question=Who can participate and how do teams qualify?
-answer=Teams can have one to five members. In-person events have a limited number of team spots, decided through online qualification. Two weeks before, all applicant teams complete an online challenge to determine who qualifies. For the largest major in-person events, a 1-hour online hackathon serves as that selection round. Successful teams advance to the 3-hour in-person competition.
+answer=Teams can have one to five members. Arena has limited team spots, decided through online qualification two weeks before the event. For the largest Arena events, a 1-hour Online hackathon serves as the selection round. Successful teams advance to the 3-hour Arena competition.
 
 [FAQ 5]
 question=What are the technology requirements and sponsor integrations?
@@ -183,7 +183,7 @@ answer=Expect a produced live show with an MC, big screens, voting, live statist
 [FAQ 7]
 anchor=final
 question=What are the prizes and recognition?
-answer=In the final round of the in-person event, the audience and judges vote on the winner. Cash prizes and the HackerRivals trophy are awarded on stage immediately. Sponsor credits, swag and other benefits can vary by event.
+answer=At the Arena final, the audience and judges vote on the winner. Cash prizes and the HackerRivals trophy are awarded on stage immediately. Separately, an App Championship final announces its winner and awards extra leaderboard points and prize money, which is recorded in the leaderboard listing. Sponsor credits, swag and other benefits vary by event.
 
 [FAQ 8]
 question=Where exactly is the event located?
@@ -218,7 +218,7 @@ title=Onboarding
 text=Selected teams must attend mandatory onboarding calls. Missing onboarding can put the team place at risk.
 
 [RULE 3]
-title=Project assignment
+title=Arena project assignment
 text=The official assignment is revealed on the morning of the event. Project development cannot begin before it is released.
 
 [RULE 4]
@@ -227,11 +227,11 @@ text=AI is encouraged for coding, design, ideation and support, but no extra hum
 
 [RULE 5]
 title=Intellectual property
-text=Teams keep ownership of their IP while granting HackerRivals permission to capture and share event media and project descriptions.
+text=Teams retain ownership of their IP and grant HackerRivals permission to share event media and project descriptions. Gathering AGI championship apps also grant competition publishing and promotional rights, with credit to the team and individual creators, plus continuing permission for credited website promotion and an archive after the competition. Teams decide their own ownership split; equal ownership is suggested, not required.
 
 [RULE 6]
 title=Selection and participation
-text=In-person events have a limited number of team spots, determined through online qualification. Two weeks before, all applicant teams take part in an online challenge; for the largest major events, this is a 1-hour online hackathon. Teams that qualify advance to the 3-hour in-person event. Teams are selected by the HackerRivals committee, and there is no competitor registration fee.
+text=Arena has limited team spots, determined through online qualification two weeks before the event; for the largest Arena events, this is a 1-hour Online hackathon. Qualifying teams advance to the 3-hour Arena competition. Teams are selected by the HackerRivals committee, and there is no competitor registration fee.
 
 [RULE 7]
 title=Equipment and internet
@@ -247,7 +247,7 @@ text=Late arrival can lead to disqualification. Teams must follow presentation a
 
 [RULE 10]
 title=Demos and judging
-text=Teams receive fixed demo and Q and A slots. Judging criteria and deadlines are shared during onboarding and on event day.
+text=Arena teams receive fixed demo and Q and A slots. Judging criteria and deadlines are shared during onboarding and on event day. Gathering AGI selects the two best apps for publication; championship scoring uses metrics accessible through HackerRivals' store accounts. Results update the leaderboard, with extra points and prize money recorded for the App Championship winner.
 
 [RULE 11]
 title=Safety and compliance
@@ -320,3 +320,55 @@ name=5,000 Days
 image=content/sponsor-logos/07-5000days-logo.png
 theme=light
 url=https://5000days.net
+
+# Gathering AGI and App Championship policies
+
+[FAQ 18]
+anchor=app-championship
+question=How does the Gathering AGI App Championship work?
+answer=The two best apps from Gathering AGI are published under HackerRivals' store accounts and the leaderboard is updated. Two or more apps compete for up to 18 months, with improvements allowed until the final three-month freeze. At the final, the winner receives extra leaderboard points and prize money, recorded in the leaderboard listing.
+
+[FAQ 19]
+anchor=app-freeze
+question=What changes during the three-month freeze?
+answer=The final three months of the championship are a freeze: teams lose access to the HackerRivals store accounts and no more app changes may be made. Teams remain responsible for keeping the app and backend functional through the championship final to qualify for the prize. No Gathering AGI events take place in the four months leading up to a final.
+
+[FAQ 20]
+anchor=app-costs
+question=Who pays to keep championship apps running?
+answer=Teams pay hosting costs and maintain the app, backend and supporting services. HackerRivals covers the app-store account membership fees during the competition. Every competition app is completely free on Apple and Google stores and must remain functional through the final to qualify for prize money.
+
+[FAQ 21]
+anchor=app-ownership
+question=Who owns the app, and can teams publish their own version?
+answer=Teams retain their IP and decide ownership among themselves; equal ownership is suggested, not imposed. HackerRivals receives publishing and promotional rights for the championship and continuing permission for a credited website archive. Teams may publish their own version during the competition with a different name, provided it is sufficiently distinct and complies with Apple and Google rules. Any conflict caused by the team's version must be corrected in HackerRivals' favor.
+
+[FAQ 22]
+anchor=app-graduation
+question=What happens to apps after the championship final?
+answer=Teams have a 60-day graduation window to transfer their existing store listings to their own developer accounts, subject to Apple and Google transfer requirements. After that, apps that have not graduated are retired and removed from the HackerRivals stores. HackerRivals preserves credited write-ups and may link to a team's new app listing. Continued app service is not guaranteed.
+
+[FAQ 23]
+anchor=app-store
+question=What content and branding rules apply to competition apps?
+answer=Apps must be PG, with no hate speech, violence or material that could damage HackerRivals' reputation. Their download pages must promote HackerRivals during the competition; HackerRivals may edit those pages to add branding, which teams must not remove during the competition. Pages must warn that the app may stop functioning at the end of the competition, lasting up to 18 months. The branding requirement ends after the competition.
+
+[RULE 12]
+title=App Championship lifecycle
+text=The two best Gathering AGI apps are published through HackerRivals' Apple and Google store accounts and the leaderboard is updated. Two or more apps compete for up to 18 months. Teams can improve their apps until the final three-month freeze, when team store access is removed and no more changes may be made. No Gathering AGI events occur within the four months before a championship final.
+
+[RULE 13]
+title=Free apps, content and store branding
+text=Competition apps must be completely free and PG, with no hate speech, violence or content harmful to HackerRivals' reputation. Download pages must promote HackerRivals during the competition. HackerRivals may edit the pages to add branding, which teams must not remove during the competition. Pages must warn users that the app may stop functioning at the end of the competition, lasting up to 18 months. The branding requirement ends after the competition.
+
+[RULE 14]
+title=Hosting, maintenance and prize eligibility
+text=Teams are responsible for hosting costs and maintenance of the app, backend and supporting services. HackerRivals covers app-store account membership fees during the competition. An app must remain functional through the championship final to qualify for the prize, including during the freeze.
+
+[RULE 15]
+title=Independent team publications
+text=Teams may publish their own version during the competition using a different name, provided it is sufficiently distinct and complies with Apple and Google rules. If their version causes a store-policy conflict, teams must correct their version in HackerRivals' favor so HackerRivals does not have to change its competition listing.
+
+[RULE 16]
+title=Graduation, retirement and creator archive
+text=After the final, teams have 60 days to transfer existing listings to their own developer accounts, subject to store requirements. HackerRivals then retires apps that have not graduated, removes them from its stores and deletes the listings where permitted. HackerRivals retains permission for credited website write-ups and promotion preserving the competition history. Teams are encouraged to provide links to their app's new home.

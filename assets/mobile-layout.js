@@ -13,7 +13,7 @@
   }
   window.HackerRivalsMobile = {
     setup() {
-      fold([...document.querySelectorAll('.event-format-grid, .qualification-note')], 'How it works & qualifying');
+      fold([...document.querySelectorAll('#event-formats .event-format-grid, #event-formats .qualification-note')], 'How it works & qualifying');
       document.querySelectorAll('.involve-card').forEach(card => {
         fold([...card.querySelectorAll('h3, p, a')], card.querySelector('h3').textContent);
       });
